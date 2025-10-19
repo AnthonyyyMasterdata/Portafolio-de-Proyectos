@@ -1,4 +1,4 @@
-# Dashboard de Ventas
+ # Dashboard de Ventas
 Este dashboard muestra el análisis historico de ventas de la industria de videojuegos.
 
 **Archivo:** DashboardVentas.pbix  
@@ -9,19 +9,21 @@ En esta carpeta muestra mi manejo de consultas básicas y avanzadas en MySQL en 
 
 **Herramientas:** MySQL Workbench
 
-# Sistema de analisis de sentimientos en redes sociales
+# Analisis de sentimiento en red social X
 
-Objetivo: Realizar un sistema de analisis de sentimiento de una red social seleccionados para evaluar el tono emocional (positivo, negativo o neutro) de grandes volúmenes de texto digital, como reseñas, comentarios en redes sociales o correos electrónicos. 
-
-## ¿Que plataforma analizaremos primero?
-
-Se analizara la red social twitter o reddit (por definir)
+Objetivo: Realizar un analisis de sentimiento de una red socia X para evaluar el tono emocional (positivo, negativo o neutro) de comentarios o tweets del #larojasub20.
 
 ## ¿Qué tipo de opiniones quieres estudiar? (sobre una marca, producto, tema político, etc.)
 
-Sobre una marca, producto y temas politicos. 
+Sobre los comentarios o tweets de #larojasub20
 
-## ¿Qué nivel de detalle necesitas? (positivo/negativo/neutro o análisis de emociones más fino)
+## ¿Qué nivel de detalle se evalua? (positivo/negativo/neutro o análisis de emociones más fino)
 
-ejemplo de proyecto especifico: Analizar el sentimiento de analisis contra las nuevas politicas del Presidente Donald Trump. 
+Una vez limpiado los datos extraidos de la fuente, se evalua si los comentarios tiene un tono positivo, negativo o neutro con la librería de HuggingFace. Se usa la tarea de Machine learning de clasificación de texto para lograr el cometido.
+
+**Herramientas:** Python, pandas, excel, API twitter, HuggingFace,
+
+## 🔍 Estado del proyecto
+El objetivo del proyecto era analizar el tono emocional (sentimiento) de tweets en X.
+✅ Se logró. Una vez extraido y transformado los datos, se realizó el reporte de visualización en excel, donde se aprecia con un grafico de pastel los tweets con tono ecomocional, y la distribución de porcentajes entre los tweets positivos, negativos y neutros.
 
